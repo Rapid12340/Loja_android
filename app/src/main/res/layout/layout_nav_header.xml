@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="251dp"
+        android:layout_height="45dp"
+        android:onClick="ClickLogo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logobranco"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="20dp"/>
+    <View
+        android:id="@+id/viewSupporter"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/imgMenu"
+        app:layout_constraintEnd_toEndOf="@id/imgMenu"
+        app:layout_constraintStart_toStartOf="@id/imgMenu"
+        app:layout_constraintTop_toTopOf="@id/imgMenu"/>
+    <!--<TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Sal Grosso"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/viewSupporter"
+        app:layout_constraintStart_toEndOf="@id/imgMenu"></TextView>
+    -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

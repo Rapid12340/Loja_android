@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sobrenos">
+
+    <View
+        android:id="@+id/barra"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/forma_barra" />
+
+    <TextView
+        android:id="@+id/sobretitulo"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="649dp"
+        android:text="Sobre Nós:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/sobretexto"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="563dp"
+        android:text="Trabalho Realizado Por:"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="526dp"
+        android:text="João Gonçalves nº45324"
+        android:textColor="@android:color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="488dp"
+        android:text="Bernardo Morais nº45347"
+        android:textColor="@android:color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="451dp"
+        android:text="João Ferreiro nº45365"
+        android:textColor="@android:color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="157dp"
+        android:text="Agradecimentos Especiais: Este projeto não poderia ter sido realizado sem o apoio tecnológico do colega Nuno Santos. "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:onClick="ClickConta"
+        android:title="Conta"/>
+    <item android:id="@+id/menuCart"
+        android:icon="@drawable/ic_cart"
+        android:onClick="ClickCarrinho"
+        android:title="Carrinho"/>
+    <item android:id="@+id/menuMoney"
+        android:icon="@drawable/ic_money"
+        android:onClick="ClickFundos"
+        android:title="Adicionar Fundos"/>
+    <item android:id="@+id/menuAbout"
+        android:icon="@drawable/ic_about"
+        android:onClick="ClickAboutUs"
+        android:title="Sobre Nós"/>
+    <item android:id="@+id/menuSignOut"
+        android:icon="@drawable/ic_signout"
+        android:onClick="ClickSignOut"
+        android:title="Log Out"/>
+</menu>
